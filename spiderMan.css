@@ -1,0 +1,69 @@
+body {
+  background-image: url(https://wallpaperset.com/w/full/6/e/d/369260.jpg);
+  /**background-attachment:fixed;**/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2883c5;
+}
+h1 {
+  text-align: center;
+  color: #2b3784;
+  font-family: impact;
+}
+.container {
+  background-color: #b11313;
+  margin: 5% auto;
+  border: 3px solid #2b3784;
+  width: 75%;
+  max-width: 800px;
+}
+#description {
+  text-align: center;
+}
+.divider {
+  margin: 20px 0px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 40%;
+  margin: 10px;
+}
+.inputs {
+  display: inline-block;
+  margin-top: 10px;
+}
+.dropdown {
+  width: 150px;
+}
+#tbox{
+  height:110px;
+}
+.labels label{
+  margin-top: 10px;
+}
+#submit{
+  background: #2b3784;
+  border: none;
+  color: white;
+  margin: 10px 0px 10px 45%;
+  width: 96px;
+  height: 40px;
+}
+@media (max-width: 600px){
+  .inputs{
+    display: block;
+    margin-left: 3%;
+  }
+  .labels{
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+  #submit{
+    margin-left: 3%;
+
+  }
+}

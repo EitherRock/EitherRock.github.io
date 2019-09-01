@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Spider-Man Survey</title>
+  <link rel="stylesheet" href="./spiderMan.css">
+  <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+</head>
+<div class="container">
+  <h1 id="title">Spider-Man</h1>
+  <p id="description">A Spidey Fan Survey</p>
+
+  <form id="survey-form">
+    <div class="divider">
+      <div class="labels">
+        <label id="name-label" for="name">Name:</label>
+      </div>
+      <div class="inputs">
+        <input id="name" name="name" type="text" placeholder="Enter Name" required/>
+      </div>
+
+      <div class="labels">
+        <label id="email-label" for="email">Email:</label>
+      </div>
+      <div class="inputs">
+        <input id="email" name="email" type="email" placeholder="Enter Email" required/>
+      </div>
+
+      <div class="labels">
+        <label id="number-label" for="age">Age:</label>
+      </div>
+      <div class="inputs">
+        <input id="number" name="age" type="number" placeholder="Age" min="1" max="110" required/>
+      </div>
+    </div>
+    <div class="divider">
+      <div class="labels">
+        <label id="fan-label" for="name">Are you a fan?</label>
+      </div>
+      <div class="inputs">
+        <input name="fan" type="radio" value="Yes"> Yes</br>
+        <input name="fan" type="radio" value="No"> No</br>
+        <input name="fan" type="radio" value="Somewhat"> Somewhat</br>
+      </div>
+    </div>
+    <div class="divider">
+      <div class="labels">
+        <label id="enjoy-label" for="enjoy">Best way(s) to enjoy Spider-Man</label>
+      </div>
+      <div class="inputs">
+        <input name="enjoy" type="checkbox" value="Movies">Movies</br>
+        <input name="enjoy" type="checkbox" value="Games">Games</br>
+        <input name="enjoy" type="checkbox" value="Cartoons">Cartoons</br>
+        <input name="enjoy" type="checkbox" value="Comics">Comics</br>
+      </div>
+    </div>
+    <div class="divider">
+      <div class="labels">
+        <label id="villain-label" for="enjoy">Favorite Villain?</label>
+      </div>
+      <div class="inputs">
+        <select id="dropdown" class="dropdown" name="villains">
+        <option disabled value="Select a villain">Select a villain</option>
+        <option value="Carnage">Carnage</option>
+        <option value="Carrion">Carrion</option>
+        <option value="Chameleon">Chameleon</option>
+        <option value="Doctor_Octopus">Doctor Octopus</option>
+        <option value="Electro">Electro</option>
+        <option value="Green_Goblin">Green Goblin</option>
+        <option value="HobGoblin">Hobgoblin</option>
+        <option value="Jackel">Jackal</option>
+        <option value="Kingpin">Kingpin</option>
+          <option value="Kraven">Kraven The Hunter</option>
+          <option value="Lizard">Lizard</option>
+              <option value="Mysterio">Mysterio</option>
+          <option value="Rhino">Rhino</option>
+          <option value="Sandman">Sandman</option>
+          <option value="Scorpion">Scorpion</option>
+          <option value="Shocker">Shocker</option>
+        <option value="Venom">Venom</option>
+          <option value="Vultre">Vulture</option>
+              </select>
+      </div>
+    </div>
+<div class="divider">
+  <div class="labels">
+    <label for="tom">How do you feel about Spider-Man <br>leaving the MCU?</label>
+  </div>
+  <div class="inputs">
+    <input name="feel" type="radio" value="Sad">Sad</br>
+        <input name="feel" type="radio" value="Mad">Mad</br>
+        <input name="feel" type="radio" value="Devastated">Devastated</br>
+  </div>
+</div>
+<div class="divider">
+  <div class="labels">
+    <label for="tbox">Favorite thing about Spider-Man?</label>
+  </div>
+  <div class="inputs">
+    <textarea id="tbox" name="tbox" placeholder="Text Here"></textarea>
+  </div>
+</div>
+<button id="submit" type="submit">Submit</button>
+  </form>
+</div>
