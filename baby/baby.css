@@ -11,7 +11,7 @@ body{
     background-image: url("baby_pic.jpg");
     background-position: right;
 }
-@media only screen and (max-device-width: 400px){
+@media only screen and (max-device-width: 600px){
     .gradient{
         background-position: center;
         background-size: cover;
@@ -30,8 +30,9 @@ body{
     padding: 0px;
     margin:0px;
 }
-@media only screen and (max-device-width: 400px){
+@media only screen and (max-device-width: 600px){
     #count{
+        color: black;
         font-size: 60px;
     }
 }
