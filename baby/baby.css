@@ -28,8 +28,9 @@ body{
 #count{
     padding: 0px;
     margin:0px;
+    color: red;
 }
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 600px){
     #count{
         color: red;
         font-size: 60px;
