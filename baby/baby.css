@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
 }
 .gradient{
-    background-color: purple;
+    background-color: #f3f8f1;
     background-repeat: no-repeat;
     background-image: url("baby_pic.jpg");
     background-position: right;
