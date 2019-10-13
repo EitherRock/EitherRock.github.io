@@ -1,0 +1,51 @@
+body{
+    font-family: 'Concert One', cursive;
+    color: #008080;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+.gradient{
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-image: url("baby_pic.jpg");
+    background-position: right;
+}
+@media only screen and (max-width: 600px){
+    .gradient{
+        background-position: center;
+        background-position-x: -1000px;
+
+    }
+}
+#date{
+    text-align: center;
+    padding: 0%;
+    margin-top: 10%;
+    font-size: 80px;
+    text-shadow: .5px .5px black;
+}
+#count{
+    padding: 0px;
+    margin:0px;
+}
+@media only screen and (max-width: 600px) {
+    #count{
+        font-size: 60px;
+    }
+}
+#registry{
+    padding: 10px;
+    font-size: 25px;
+    color: grey;
+}
+a:link {
+    text-decoration: none;
+    color:  #008080;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #008080;
+}
