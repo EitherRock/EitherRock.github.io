@@ -11,10 +11,10 @@ body{
     background-image: url("baby_pic.jpg");
     background-position: right;
 }
-@media only screen and (max-device-width: 600px){
+@media only screen and (max-device-width: 500px){
     .gradient{
         background-position: center;
-        background-size: auto;
+        background-size: cover;
         
 
     }
