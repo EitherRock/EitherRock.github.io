@@ -29,6 +29,7 @@ body{
 #count{
     padding: 0px;
     margin:0px;
+    color: blue;
 }
 @media only screen and (max-device-width: 600px){
     #count{
