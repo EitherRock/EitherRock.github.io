@@ -13,7 +13,7 @@ body{
 }
 @media only screen and (max-device-width: 600px){
     .gradient{
-        background-position: center center;
+        background-position: center;
         background-size: contain; 
         background-attachment: fixed;
     
