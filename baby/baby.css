@@ -13,11 +13,8 @@ body{
 }
 @media only screen and (max-width: 600px){
     .gradient{
-        background-position: center;
-        background-size: cover; 
-    
-        
-
+        background: radial-gradient(#f3f8f1,#d8e7e0);
+        background-image: none;
     }
 }
 #date{
